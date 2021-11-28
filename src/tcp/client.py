@@ -5,10 +5,6 @@ import socket
 import logging
 import sys
 
-def interuppt_handler(signum, frame):
-    print("Signal handler!!!")
-    sys.exit(-2)
-
 def main():
     
     logger = logging.getLogger('CLIENTE')
